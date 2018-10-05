@@ -80,6 +80,27 @@ background: #170014;
   color: #D4CDC3;
 }
 
+#contact{
+	color:#f4f4f4;
+	padding-bottom:80px;
+}
+
+textarea.form-control{
+    height:100px;
+}
+
+.fa-globe{
+color: #E55812;
+}
+
+.fa-phone{
+color: #E55812;
+}
+
+.fa-map-marker {
+color: #E55812;
+}
+
 footer {
   padding-top: 20px;
   margin-top: 30px;
