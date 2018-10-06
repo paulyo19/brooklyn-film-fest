@@ -123,3 +123,25 @@ footer {
     display: none;
   }
 }
+
+@media screen and (max-width: 600px) {
+.myaddress {
+  position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 25px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+#contact, #call {
+  padding-right: 55px;
+    }
+ }
+
+
+@media screen and (max-width: 600px) {
+  .page-footer {
+  text-align: center;
+  }
+}
