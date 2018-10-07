@@ -134,17 +134,21 @@ footer {
     min-height: 1px;
     padding-right: 15px;
     padding-left: 25px;
+    text-align: justify;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1068px) {
 #contact, #call {
   padding-right: 55px;
-    }
+  font-size: 20px;
+  text-align: justify;
  }
+}
 
 
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 990px) {
   .page-footer {
   text-align: center;
   }
