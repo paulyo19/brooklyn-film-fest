@@ -18,9 +18,9 @@ background: #170014;
     padding: 5px 10px;
     border-radius: 8px;
 }
-/* TITLE DESCRIPTION ON HOMEPAGE */
+/* TITLE ON HOMEPAGE */
 .jumbotron-heading {
-  font-family: 'Poppins', sans-serif;;
+  font-family: 'Poppins', sans-serif;
   color: #ce4c00;
 }
 /* NEWS BORDER */
@@ -34,13 +34,16 @@ background: #170014;
 /* ALL BUTTONS */
 .btn:hover {
   background-color: #ce4c00;
-  font-size: 150%;
 }
 /* PARAGRAPH DESCRIPTION ON HOMEPAGE */
 .lead {
   font-family: 'Arvo', cursive;
   font-weight: 400;
   font-size: 20px;
+}
+/* NRES BLOG */
+main {
+  font-family: 'Poppins', sans-serif;
 }
 /* TEXT UNDER EMAIL ADDRESS ON RESERVATION PAGE */
 .text-muted {
@@ -88,6 +91,7 @@ background: #170014;
 .fa-map-marker{
 color: #ce4c00;
 }
+
 footer {
   padding-top: 20px;
   margin-top: 30px;
