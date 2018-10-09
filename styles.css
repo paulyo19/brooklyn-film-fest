@@ -1,11 +1,11 @@
 /* NAVBAR */
 nav {
-  border-bottom: #E55812 3px solid;
+  border-bottom: #2B4BCC 3px solid;
   opacity:0.8;
 }
 /* BODY BACKGROUND COLOR */
 body {
-background: #170014;
+  background: #171718;
 }
 /* LOGO */
 .navbar-brand span {
@@ -14,33 +14,48 @@ background: #170014;
     text-transform: uppercase;
     font-size: 22px;
     line-height: 30px;
-    background-color: #ce4c00;
+    background-color: #2B4BCC;
     padding: 5px 10px;
     border-radius: 8px;
 }
 /* TITLE ON HOMEPAGE */
 .jumbotron-heading {
   font-family: 'Poppins', sans-serif;
-  color: #ce4c00;
+  background: #222 -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff)) 0 0 no-repeat;
+    -webkit-background-size: 125px;
+
+    color: rgba(255, 255, 255, 0.1);
+    -webkit-background-clip: text;
+
+    -webkit-animation-name: shine;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
 }
+@-webkit-keyframes shine
+{
+    0%
+    {
+        background-position: top left;
+    }
+    100%
+    {
+        background-position: top right;
+    }
+}
+
 /* NEWS BORDER */
 .news {
-  border: #ce4c00 4px solid;
-}
-/* ALL BUTTONS */
-.btn {
-  background-color: #ce4c00;
+  border: #2B4BCC 4px solid;
 }
 /* ALL BUTTONS */
 .btn:hover {
-  background-color: #ce4c00;
+  background-color: #2B4BCC;
 }
 /* PARAGRAPH DESCRIPTION ON HOMEPAGE */
 .lead {
   font-family: 'Arvo', cursive;
-  font-weight: 400;
-  font-size: 20px;
 }
+
 /* NRES BLOG */
 main {
   font-family: 'Poppins', sans-serif;
@@ -61,21 +76,21 @@ main {
 }
 /* DESCRIPTION UNDER MOVIE LISTS */
 .card-text {
-  background: #170014;
+  background: #171718;
   color: white;
   font-family: 'Arvo', serif;
   font-size: 20px;
 }
 /* DATES AND TIMES ON MOVIE LISTS */
 .card-header {
-  background: #170014;
-  color: #ce4c00;
+  background: #171718;
+  color: #6978dd;
   font-family: sans-serif;
   font-size: 20px;
 }
 /* DATES, TIMES AND DESCRIPTION UNDER MOVIE LISTS */
 .card-body {
-  background: #170014;
+  background: #171718;
 }
 /* ADDRESS BESIDE GOOGLE MAPS */
 .myaddress {
@@ -89,13 +104,13 @@ main {
 /* INFORMATION ICONS */
 .fa-globe, .fa-phone,
 .fa-map-marker{
-color: #ce4c00;
+color: #2B4BCC;
 }
 
 footer {
   padding-top: 20px;
   margin-top: 30px;
-  border-top: #ce4c00 3px solid;
+  border-top: #2B4BCC 3px solid;
 }
 /* DISABLED LOGO FOR SMALLER SCREENS */
 @media screen and (max-width: 600px) {
