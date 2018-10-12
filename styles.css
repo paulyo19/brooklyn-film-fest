@@ -48,6 +48,10 @@ body {
   border: #2B4BCC 4px solid;
 }
 /* ALL BUTTONS */
+.btn {
+  background-color: #2B4BCC;
+}
+/* ALL BUTTONS */
 .btn:hover {
   background-color: #2B4BCC;
 }
