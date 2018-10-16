@@ -110,6 +110,24 @@ main {
 .fa-map-marker{
 color: #2B4BCC;
 }
+/* 3 top images on news page */
+.w-100 {
+      height: 235px;
+}
+
+#post-1 {
+  width: 552px;
+height: 400px;
+}
+#post-2 {
+  width: 552px;
+height: 600px;
+}
+
+#post-3 {
+  width: 552px;
+height: 450px;
+}
 
 footer {
   padding-top: 20px;
