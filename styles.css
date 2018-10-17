@@ -181,3 +181,8 @@ footer {
   height: auto;
   }
 }
+@media screen and (max-width: 970px) {
+  .news, #news12 {
+  width: 340px;
+  }
+}
