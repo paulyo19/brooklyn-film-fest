@@ -130,13 +130,17 @@ height: 450px;
 }
 
 #signup {
-  height: 500px;
+height: 640px;
 }
 
-#seat, .jumbotron {
-  height: 500px;
+.form-check-label{
+display: block;
+padding-bottom: 15px;
 }
 
+#seat {
+  height: 640px;
+  }
 
 footer {
   padding-top: 20px;
@@ -168,44 +172,14 @@ footer {
  }
 }
 /* SOCAIL LINKS IN FOOTER */
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 999px) {
   .page-footer {
   text-align: center;
   }
 }
-@media screen and (max-width: 960px) {
-  #seat{
+
+@media screen and (max-width: 578px) {
+  #seat {
   display: none;
   }
-}
-
-@media screen and (max-width: 970px) {
-  .jumbotron{
-  width: auto;
-  height: auto;
-  }
-}
-@media screen and (max-width: 970px) {
-  .news, #news12 {
-  width: 340px;
-  }
-}
-
-
-@media screen and (max-width: 970px) {
-.form-check-input{
-    box-sizing: border-box;
-    padding: 10px;
-  }
-}
-
-@media screen and (max-width: 970px) {
-.form-check-label{
-    display: block;
-    padding-bottom: 15px;
-  }
-}
-@media screen and (max-width: 970px) {
-#signup{
-  height: 570px;
 }
